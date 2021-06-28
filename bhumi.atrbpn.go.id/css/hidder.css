@@ -1,0 +1,8 @@
+.tjs-story-builder__story-panel .tjs-story-builder__isHidden {
+    visibility: hidden;
+    display: none;
+}
+.tjs-story-builder__story-panel, .tjs-story-builder__isHidden {
+	visibility: hidden;
+	display: none;
+}
