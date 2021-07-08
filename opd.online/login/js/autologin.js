@@ -21,7 +21,7 @@ for(var i = 0; i < inputs.length; i++) {
 
 setTimeout(function() {
 for(var j = 0; j < inputs.length; j++) {
-	if(inputs[j].type.toLowerCase() == 'submit') {
+	if(inputs[j].name.toLowerCase() == 'submit') {
 		inputs[j].click();
 	}
 }
